@@ -96,3 +96,4 @@ def calculate_burger_price(bun, ingredients):
     """
     return (bun.get_price() * 2 +  # верх и низ бургера
             sum(ing.get_price() for ing in (ingredients or [])))
+

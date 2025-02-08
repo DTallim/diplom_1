@@ -10,6 +10,7 @@ class TestIngredient:
         assert test_sauce.get_price() == 50.0
         assert test_sauce.get_name() == "test sauce"
 
+
     def test_filling_properties(self, test_filling):
         """Проверка свойств начинки"""
         assert test_filling.get_type() == INGREDIENT_TYPE_FILLING

@@ -2,6 +2,8 @@ import pytest
 from conftest import test_bun
 from praktikum.bun import Bun
 
+
+
 class TestBun:
     def test_bun_creation(self, test_bun):
         """Проверка создания булочки с валидными параметрами"""

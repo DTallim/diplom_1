@@ -16,6 +16,7 @@ class TestDatabase:
             assert bun.get_price() > 0
             assert len(bun.get_name()) > 0
 
+
     def test_ingredients_availability(self):
         """Проверка доступности ингредиентов"""
         db = Database()

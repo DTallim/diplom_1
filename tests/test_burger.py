@@ -18,6 +18,7 @@ def get_ingredient_type(type_str):
     return INGREDIENT_TYPE_SAUCE if type_str == 'SAUCE' else INGREDIENT_TYPE_FILLING
 
 
+
 @pytest.fixture
 def test_bun():
     return Bun(name=bun_data[0], price=float(bun_data[1]))
